@@ -12,44 +12,17 @@
       href="./images/favicon-32x32.png"
     />
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./styles.css">
+
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
-
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-
-    Colton Smith
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-
-    Irene Roberts
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-
-    Anne Wallace
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
 
     <section class="social">
 
@@ -65,7 +38,9 @@
 
         <!-- Rating -->
         <div class="rating">
-          <div class="rating-score">
+
+          <!-- One rating card -->
+          <div class="card card-rating">
             <div class="star">
               <img src="./images/icon-star.svg" alt="Star">
               <img src="./images/icon-star.svg" alt="Star">
@@ -75,7 +50,9 @@
             </div>
             <p>Rated 5 Stars in Reviews</p>
           </div>
-          <div class="rating-score">
+
+          <!-- One rating card -->
+          <div class="card card-rating">
             <div class="star">
               <img src="./images/icon-star.svg" alt="Star">
               <img src="./images/icon-star.svg" alt="Star">
@@ -85,7 +62,9 @@
             </div>
             <p>Rated 5 Stars in Report Guru</p>
           </div>
-          <div class="rating-score">
+
+          <!-- One rating card -->
+          <div class="card card-rating">
             <div class="star">
               <img src="./images/icon-star.svg" alt="Star">
               <img src="./images/icon-star.svg" alt="Star">
@@ -96,15 +75,57 @@
             <p>Rated 5 Stars in BestTech</p>
           </div>
         </div>
-        <div class="testimonial"></div>
+
+        <!-- Testimonials -->
+        <div class="testimonial">
+          <!-- One testimonial -->
+          <div class="card card-testimonial">
+            <div class="card-testimonial-head">
+              <img src="./images/image-colton.jpg" alt="Colton Smith">
+              <div>
+                <h4>Colton Smith</h4>
+                <h4>verified buyer</h4>
+              </div>
+            </div>
+            <div class="card-testimonial-body">
+              <p>"We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but we also received it in time.
+              Excellent!"</p>
+            </div>
+          </div>
+
+          <!-- One testimonial -->
+          <div class="card card-testimonial">
+            <div class="card-testimonial-head">
+              <img src="./images/image-irene.jpg" alt="Irene Roberts">
+              <div>
+                <h4>Irene Roberts</h4>
+                <h4>verified buyer</h4>
+              </div>
+            </div>
+            <div class="card-testimonial-body">
+              <p>"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+            </div>
+          </div>
+
+          <!-- One testimonial -->
+          <div class="card card-testimonial">
+            <div class="card-testimonial-head">
+              <img src="./images/image-anne.jpg" alt="Anne Wallace">
+              <div>
+                <h4>Anne Wallace</h4>
+                <h4>verified Buyer</h4>
+              </div>
+            </div>
+            <div class="card-testimonial-body">
+              <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
   </body>
 </html>
