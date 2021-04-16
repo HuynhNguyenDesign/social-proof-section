@@ -28,118 +28,15 @@ html {
   font-size: 15px;
   font-weight: 500;
 }
-/* Typography CSS */
-h2 {
-  font-weight: 700;
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1rem;
-  font-weight: 700;
-
-  text-transform: capitalize;
-}
-
-h4+h4 {
-  font-weight: 400;
-}
-
-p {
-  line-height: 1.5;
-}
-
-div.intro,
-div.rating {
-  text-align: center;
-}
-
-div.intro>p {
-  font-size: 1.2rem;
-}
-
-div.rating>div.card-rating>p {
-  font-weight: 700;
-}
-/* Colors CSS */
-body {
-  background-color: hsl(0, 0%, 100%);
-}
-
-div.intro>h2 {
-  color: hsl(300, 43%, 22%);
-}
-
-div.intro>p {
-  color: hsl(303, 10%, 53%);
-}
-
-div.rating>div.card-rating {
-  background-color: hsl(300, 24%, 96%);
-}
-
-div.testimonial>div.card-testimonial {
-  background-color: hsl(300, 43%, 22%);
-}
-
-div.testimonial>div.card-testimonial>div.card-testimonial-head>div>h4 {
-  color: hsl(300, 24%, 96%);
-}
-
-div.testimonial>div.card-testimonial>div.card-testimonial-head>div>h4+h4 {
-  color: hsl(333, 80%, 67%);
-}
-
-div.testimonial>div.card-testimonial>div.card-testimonial-body>p {
-  color: hsl(300, 24%, 96%);
-}
 /* Layout CSS */
+
 .container {
-  width: 88%;
-  margin: 0 auto;
-  padding: 4rem 0;
+  width: 90%;
+  margin: 2rem auto 0 auto;
 }
 
-div.intro,
-div.rating,
-div.testimonial {
-  margin-bottom: 4rem;
-}
-
-.card {
-  border-radius: 0.5rem;
-}
-
-/* Component CSS */
-div.intro {
-  margin-bottom: 1.5rem;
-}
-div.intro>p {
-  margin: 1.5rem 0 2rem 0;
-}
-
-div.rating>div.card-rating {
-  padding: 0.75rem 0;
-  margin-bottom: 1rem;
-}
-
-div.rating>div.card-rating>div.star {
-  margin-bottom: 0.5rem;
-}
-
-div.testimonial>div.card-testimonial {
-  padding: 2rem 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-div.testimonial>div.card-testimonial>div.card-testimonial-head {
-  display: flex;
-  align-items: center;
-  padding-bottom: 1rem;
-}
-
-div.testimonial>div.card-testimonial>div.card-testimonial-head>img {
-  width: 4rem;
-  border-radius: 99rem;
-  margin-right: 2rem;
+.intro,
+.rating,
+.user {
+  margin-bottom: 2rem;
 }
